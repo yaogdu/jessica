@@ -21,6 +21,8 @@ public class App {
         App app = new App();
         app.sayHello();
 
+
+
         synchronized (App.class) {
             while (true) {
                 try {
