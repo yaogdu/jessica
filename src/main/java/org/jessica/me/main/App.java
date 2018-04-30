@@ -7,6 +7,8 @@
  */
 package org.jessica.me.main;
 
+import org.jessica.me.entity.User;
+import org.jessica.me.utils.AnnoHandler;
 import org.springframework.stereotype.Service;
 
 /**
@@ -18,20 +20,24 @@ import org.springframework.stereotype.Service;
 public class App {
 
     public static void main(String[] args) {
-        App app = new App();
-        app.sayHello();
+//        App app = new App();
+//        app.sayHello();
+//
+//        synchronized (App.class) {
+//            while (true) {
+//                try {
+//                    App.class.wait();
+//                } catch (Throwable e) {
+//
+//                }
+//            }
+//        }
 
-        synchronized (App.class) {
-            while (true) {
-                try {
-                    App.class.wait();
-                } catch (Throwable e) {
-                    
-                }
-            }
-        }
+        AnnoHandler handler = new AnnoHandler();
+        handler.handle(User.class,"/Users/dear/Documents/workspace/jessica/src/main/java/org/jessica/me/entity/User.java");
 
     }
+
 
 
     public void sayHello() {
