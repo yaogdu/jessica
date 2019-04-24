@@ -7,9 +7,10 @@
  */
 package org.jessica.me.main;
 
-import org.jessica.me.entity.User;
-import org.jessica.me.utils.AnnoHandler;
+import org.jessica.me.hystrix.CmdHelloWorld2;
+import org.jessica.me.hystrix.CommandHelloWorld;
 import org.springframework.stereotype.Service;
+import rx.Observable;
 
 /**
  * 类App的实现描述：TODO 类实现描述
@@ -33,8 +34,17 @@ public class App {
 //            }
 //        }
 
-        AnnoHandler handler = new AnnoHandler();
-        handler.handle(User.class,"/Users/dear/Documents/workspace/jessica/src/main/java/org/jessica/me/entity/User.java");
+        String s = new CommandHelloWorld("Bob").execute();
+
+        System.out.println(s);
+
+        Observable<String> o = new CommandHelloWorld("Toby").observe();
+
+
+        System.out.println(o);
+
+        Observable<String> o2 = new CmdHelloWorld2("wo").observe();
+
 
     }
 
