@@ -45,9 +45,9 @@ public class App {
 
         Observable<String> o2 = new CmdHelloWorld2("wo").observe();
 
-        System.out.println("a");
+        System.out.println("aa");
 
-        System.out.println("b");
+        System.out.println("bb");
 
         System.out.println("c");
 
