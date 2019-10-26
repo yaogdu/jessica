@@ -9,7 +9,7 @@
   <url>http://maven.apache.org</url>
 
   <properties>
-    <!-- springframe 版本控制 -->
+    <!--  springframe 版本控制 -->
     <spring.version>4.1.1.RELEASE</spring.version>
     <spring.security.version>4.1.1.RELEASE</spring.security.version>
   </properties>
