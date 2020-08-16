@@ -2,16 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="14d05a2d-8b94-405f-8278-3b6c3fc74ffc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/jessica/me/algo/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/jessica/me/algo/NodeOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/jessica/me/algo/slidingwindow/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/jessica/me/algo/stackandqueue/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/jessica/me/algo/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/jessica/me/algo/node/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/jessica/me/algo/NodeOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/jessica/me/algo/node/NodeOperation.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FavoritesManager">
     <favorites_list name="CodeIris Favorites" />
@@ -23,12 +39,38 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="importAutomatically" value="true" />
       </MavenImportingSettings>
     </option>
+  </component>
+  <component name="ProjectId" id="1gAVRcOlpqar7VX0AD6XZWPB3eh" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RestServicesNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="Found 1 services " type="fcff1e1b:RestServiceStructure$RootNode" />
+        </path>
+        <path>
+          <item name="Found 1 services " type="fcff1e1b:RestServiceStructure$RootNode" />
+          <item name="org.jessica.me" type="c588b436:RestServiceStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -42,13 +84,39 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Solution (1)">
     <configuration name="NodeOperation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.jessica.me.algo.NodeOperation" />
+      <option name="MAIN_CLASS_NAME" value="org.jessica.me.algo.node.NodeOperation" />
       <module name="org.jessica.me" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.jessica.me.algo.*" />
+          <option name="PATTERN" value="org.jessica.me.algo.node.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.jessica.me.algo.slidingwindow.Solution" />
+      <module name="org.jessica.me" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.jessica.me.algo.slidingwindow.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.jessica.me.algo.stackandqueue.Solution" />
+      <module name="org.jessica.me" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.jessica.me.algo.stackandqueue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -58,6 +126,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution (1)" />
+        <item itemvalue="Application.Solution" />
         <item itemvalue="Application.NodeOperation" />
       </list>
     </recent_temporary>
@@ -69,7 +139,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1597538670047</updated>
-      <workItem from="1597538674479" duration="2706000" />
+      <workItem from="1597538674479" duration="4439000" />
+      <workItem from="1597557384364" duration="3394000" />
     </task>
     <servers />
   </component>
@@ -81,7 +152,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

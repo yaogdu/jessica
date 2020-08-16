@@ -1,4 +1,4 @@
-package org.jessica.me.algo;
+package org.jessica.me.algo.node;
 
 import com.alibaba.fastjson.JSON;
 

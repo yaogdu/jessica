@@ -1,4 +1,4 @@
-package org.jessica.me.algo;
+package org.jessica.me.algo.node;
 /**
  * 类Node的实现描述：  单向链表
  * @author duyaoguang 2020/8/16 8:42 上午
